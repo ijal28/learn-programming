@@ -1,1 +1,5 @@
-// Add JS here
+//komentar satu baris
+/*
+komentar
+banyak baris
+*/
