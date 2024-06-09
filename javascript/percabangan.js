@@ -1,4 +1,5 @@
-// Suggested code may be subject to a license. Learn more: ~LicenseLog:2616121036.
+
+// Percabangan if else adalah struktur kontrol yang digunakan untuk mengeksekusi blok kode tertentu jika kondisi tertentu terpenuhi.
 const inputKataSandi = 'rahasia123';
 
 if (inputKataSandi === 'rahasia123') {
@@ -7,7 +8,8 @@ if (inputKataSandi === 'rahasia123') {
   console.log('Maaf kata sandi Anda salah.');
 }
 
-// Percabangan if else if
+
+// Percabangan if else if 
 const nilai = 80;
 
 if (nilai >= 80) {
@@ -48,3 +50,4 @@ switch (hari) {
   default:
     console.log('Hari tidak valid.');
 }
+

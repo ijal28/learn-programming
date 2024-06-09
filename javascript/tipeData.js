@@ -1,4 +1,7 @@
-//tipe data primitif
+// Tipe data primitif adalah tipe data yang tidak dapat dipecah menjadi bagian yang lebih kecil lagi.
+// Tipe data primitif meliputi string, number, boolean, null, undefined, BigInt, dan Symbol.
+
+
 const dataString = "Akhmad Rijal Syukri"
 const dataNumber = 22
 const dataBoolean = true
@@ -7,7 +10,9 @@ let dataUndefined
 const dataBigInt = 9007199254740992n
 const dataSymbol = Symbol()
 
-// tipe data non primitif
+
+// Tipe data non primitif adalah tipe data yang terdiri dari beberapa nilai yang dikelompokkan menjadi satu kesatuan. 
+// Tipe data non primitif meliputi array, object, function, dan lain-lain.
 const dataArray = ["apel", "anggur", "pisang"]
 console.log(dataArray[1])
 dataArray[0] = "jeruk"
