@@ -1,5 +1,6 @@
 <?php
-
+$a = 10;
+$b = 3;
 
 // Operator matematika
 echo $a + $b; // 3
