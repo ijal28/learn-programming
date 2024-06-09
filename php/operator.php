@@ -7,6 +7,7 @@ echo $a - $b; // 1
 echo $a * $b; // 6
 echo $a / $b; // 2
 echo $a % $b; // 0
+echo $a ** $b;
 
 // Operator penugasan
 $a = 1; // Menetapkan nilai 1 ke variabel $a
