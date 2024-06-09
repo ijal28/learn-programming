@@ -1,14 +1,15 @@
 <?php
+
 $a = 10;
 $b = 3;
 
 // Operator matematika
-echo $a + $b; // 3
-echo $a - $b; // 1
-echo $a * $b; // 6
-echo $a / $b; // 2
-echo $a % $b; // 0
-echo $a ** $b;
+echo $a + $b; // 13
+echo $a - $b; // 7
+echo $a * $b; // 30
+echo $a / $b; // 3.3333333333333
+echo $a % $b; // 1
+echo $a ** $b; // 1000
 
 // Operator penugasan
 $a = 1; // Menetapkan nilai 1 ke variabel $a
@@ -21,10 +22,10 @@ $a %= 2; // Menghitung sisa pembagian variabel $a dengan 2, sehingga menjadi 1
 // Operator perbandingan
 echo $a == $b; // false
 echo $a != $b; // true
-echo $a > $b; // true
-echo $a < $b; // false
-echo $a >= $b; // true
-echo $a <= $b; // false
+echo $a > $b; // false
+echo $a < $b; // true
+echo $a >= $b; // false
+echo $a <= $b; // true
 
 // Operator logika
 echo $a && $b; // false
@@ -32,7 +33,7 @@ echo $a || $b; // true
 echo !$a; // true
 
 // Operator string
-echo $a . $b; // "12"
+echo $a . $b; // "13"
 echo strlen($a); // 2
 echo strpos($a, "1"); // 0
 echo substr($a, 0, 1); // "1"
