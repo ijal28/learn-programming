@@ -32,7 +32,7 @@ echo $a && $b; // false
 echo $a || $b; // true
 echo !$a; // true
 
-// Operator string
+// Operator string  
 echo $a . $b; // "13"
 echo strlen($a); // 2
 echo strpos($a, "1"); // 0
